@@ -389,6 +389,7 @@ int main( int argc, char** argv )
     }
   }
 
+  imwrite("lenna_adaptive.bmp", image_new);
   namedWindow( "Display window", WINDOW_AUTOSIZE );// Create a window for display.
   imshow( "Display window", image_new );                   // Show our image inside it.
 
